@@ -15,6 +15,7 @@ current_question = {}
 # Function to send the quiz when the user types !quiz
 @client.command()
 async def quiz(ctx):
+    await ctx.message.delete()
     global current_question
     current_question = {}  # Clear previous question
     print("Starting a new quiz...")

@@ -2,5 +2,5 @@
 __*
 data.py
 quiz.py
-pyvenv.cfg
+venv/pyvenv.cfg
 venv/

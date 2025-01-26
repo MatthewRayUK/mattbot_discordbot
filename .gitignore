@@ -1,0 +1,6 @@
+.idea/
+__*
+data.py
+quiz.py
+pyvenv.cfg
+venv/

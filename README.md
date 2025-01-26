@@ -1,5 +1,7 @@
 # Discord Bot
 
+<img src="logo.png" alt="Bot Logo" width="200" height="200">
+
 This is a simple Discord bot that allows users to participate in a quiz with multiple-choice questions. The bot picks a random quiz question from a predefined list and sends it to users. Users can respond with their answer by typing `!answer [option number]` to get feedback on whether they were correct.
 
 It also allows users to share their progress on the course - 100 Days of Code using a command

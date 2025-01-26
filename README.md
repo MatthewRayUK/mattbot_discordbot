@@ -28,6 +28,17 @@ It also allows users to share their progress on the course - 100 Days of Code us
 - Python 3.x
 - [discord.py](https://discordpy.readthedocs.io/en/stable/) library
 - A Discord bot token
+- quiz.py with a list of questions, options and answers in the following format:
+- ```
+  quizzes = [
+    {
+        "question": "...",
+        "options": ["...", "...", "...", "..."],
+        "answer_index": 0
+    }
+  ]
+  ```
+  data.py with 'my_token' storing your Discord Bot token and a list of celebrations used for progress
 
 ### Commands
 

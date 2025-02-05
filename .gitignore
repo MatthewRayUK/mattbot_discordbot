@@ -1,5 +1,4 @@
 .idea/
 __*
-data.py
 venv/pyvenv.cfg
 venv/

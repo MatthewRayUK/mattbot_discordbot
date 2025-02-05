@@ -1,6 +1,5 @@
 .idea/
 __*
 data.py
-quiz.py
 venv/pyvenv.cfg
 venv/

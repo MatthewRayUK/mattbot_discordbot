@@ -72,6 +72,17 @@ async def progress(ctx, day: int):
     await ctx.send(f"\n🥳 {ctx.author.mention} just completed Day {day} - {random.choice(celebrations)}\n")
     await ctx.message.delete()
 
+@client.command()
+async def workingon(ctx, *, project: str):
+    await ctx.send(f"\n💻 {ctx.author.mention} Is working on {project} \n")
+    await ctx.message.delete()
+
+@client.command()
+async def matbot(ctx, *, message: str):
+    await ctx.send(f"🤖{message}")
+    await ctx.message.delete()
+
+
 # Start the task when the bot is ready
 @client.event
 async def on_ready():
